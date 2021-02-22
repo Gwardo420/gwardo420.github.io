@@ -16,7 +16,7 @@
 
         <!-- The video -->
 <video autoplay muted loop id="myVideo">
-  <source src="./img/Organic_Lines_4K_Motion_Background_Loop.mp4" type="video/mp4">
+  <source style="image-rendering: optimizeSpeed;" src="./img/Organic_Lines_4K_Motion_Background_Loop.mp4" type="video/mp4">
 </video>
 
 
@@ -85,6 +85,10 @@
     color: #fff;
     cursor: pointer;
   }
+
+  .imgrender {
+      image-rendering: optimizeSpeed;
+    }
   
   #myBtn:hover {
     background: #ddd;
